@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaDatos", "LogicaDatos\LogicaDatos.csproj", "{9697D4EB-67DE-42AF-B6A8-593441765592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingLogicaDatos", "UnitTestingLogicaDatos\UnitTestingLogicaDatos.csproj", "{CABBD15F-09F4-4666-8FC2-B66FE88B978E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9697D4EB-67DE-42AF-B6A8-593441765592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9697D4EB-67DE-42AF-B6A8-593441765592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9697D4EB-67DE-42AF-B6A8-593441765592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9697D4EB-67DE-42AF-B6A8-593441765592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABBD15F-09F4-4666-8FC2-B66FE88B978E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABBD15F-09F4-4666-8FC2-B66FE88B978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABBD15F-09F4-4666-8FC2-B66FE88B978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABBD15F-09F4-4666-8FC2-B66FE88B978E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08AE1A5C-2112-4A46-A9D2-73004BDE6F69}
+	EndGlobalSection
+EndGlobal
