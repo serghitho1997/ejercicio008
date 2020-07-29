@@ -6,12 +6,48 @@ namespace LogicaDatos.Datos
 {
     public class Coche
     {
-        private long _id;
+        public Coche()
+        {
+
+        }
+
+        public Coche(long id, string nombre, int edad)
+        {
+            this.ID = id;
+            this.Nombre = nombre;
+            this.Edad = edad;
+        }
+
         public long ID
         {
-            get { return _id; }
-            set { _id = value; }
+            get;  set;
+        }
+
+        public string Nombre
+        {
+            get; set;
+        }
+        public int Edad
+        {
+            get;  set;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Coche coche &&
+                ID == coche.ID;
+        }
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(ID);
+    
+           }
+        public override string ToString()
+        {
+            return $"{ID} - {Nombre} - {Edad}";
         }
 
     }
+
+
 }

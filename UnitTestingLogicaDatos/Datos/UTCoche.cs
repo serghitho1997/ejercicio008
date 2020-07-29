@@ -15,7 +15,13 @@ namespace UTLogicaDatos.Datos
         {
             Coche c = new Coche();
             c.ID = 4;
+            c.Nombre = "Sergio";
+            c.Edad = 22;
+            //Coche c= new Coche(4,"Sergio", 22);
+            
             Assert.AreEqual(4, c.ID);
+
+            Assert.AreEqual("4 - Sergio - 22", c.ToString());
         }
     }
 }
