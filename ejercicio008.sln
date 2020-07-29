@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaDatos", "LogicaDatos\LogicaDatos.csproj", "{9697D4EB-67DE-42AF-B6A8-593441765592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicaDatos", "LogicaDatos\LogicaDatos.csproj", "{9697D4EB-67DE-42AF-B6A8-593441765592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingLogicaDatos", "UnitTestingLogicaDatos\UnitTestingLogicaDatos.csproj", "{CABBD15F-09F4-4666-8FC2-B66FE88B978E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTLogicaDatos", "UnitTestingLogicaDatos\UTLogicaDatos.csproj", "{CABBD15F-09F4-4666-8FC2-B66FE88B978E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
